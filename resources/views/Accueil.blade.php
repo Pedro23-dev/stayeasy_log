@@ -149,21 +149,21 @@
                     <div class="icon"><i class="fa fa-map-marker"></i></div>
                     <div class="text">
                         <h3>Address</h3>
-                        <p>Lomé-Togo <br>Rue Pharaon</p>
+                        <p>Lomé-Togo <br>Agbavi</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="icon"><i class="fa fa-phone"></i></div>
                     <div class="text">
                         <h3>Télephone</h3>
-                        <p>+22896558081</p>
+                        <p>+22893809427</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="icon"><i class="fa fa-envelope"></i></div>
                     <div class="text">
                         <h3>Email</h3>
-                        <p>stayeasy@gmail.com</p>
+                        <p>pedrodalmeida18@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -176,19 +176,23 @@
                     </div>
                     <div class="inputBox">
                         <input type="text" name="" required="required">
-                        <span>Full Name</span>
+                        <span>Nom complet</span>
                     </div>
                     <div class="inputBox">
                         <textarea required="required"></textarea>
-                        <span>Ecrit ton message</span>
+                        <span>Ecrivez votre message</span>
                     </div>
                     <div class="inputBox">
-                        <input type="submit" value="send">
+                        <input type="submit" value="Envoyer">
                     </div>
                 </form>
             </div>
         </div>
     </section>
+    <!-- resources/views/partials/footer.blade.php -->
+    <footer>
+        <p>&copy; {{ date('Y') }} Make by @Pedro23-dev. Tous droits réservés.</p>
+    </footer>
 
     <!-- <script src="../script/index.js"></script> -->
 </body>
