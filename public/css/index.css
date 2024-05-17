@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(98, 98, 197);
+    padding: 5pxpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo img{
+    padding-left: 15px;
+    width: 75px;
+    border-radius: 100%;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.button{
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+.btn-login{
+    background-color: #1592cc;
+    color: #fff;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 110px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-signup{
+    background-color: #3ea4d3;
+    color: #fff;
+   border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-signup a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*HOME*/
+
+.home1{
+  background: url(../assets/back.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+.home{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home-content{
+  max-width: 600px;
+  color: #1b1a1a;
+  font-weight: bold;
+}
+
+.home-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.home-content h2{
+  position: relative;
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(233, 233, 233);
+}
+
+
+.home-content p{
+  font-size: 20px;
+  margin: 20px 0 40px;
+}
+
+.home-content .btn-box{
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+
+.btn-box a{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 150px;
+  height: 100%;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+
+
+/*
+.btn-box a:nth-child(2){
+  background: transparent;
+  color: #fff;
+}
+
+.btn-box a:nth-child(2):hover{
+  color:#081b29;
+}
+
+.btn-box a:nth-child(2)::before{
+  background: #00abf0;
+}
+
+.btn-box a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(223, 177, 27);
+  z-index: -1;
+  transition: .5s;
+}
+
+.btn-box a:hover::before{
+  width: 100%;
+}*/
+
+
+
+
+/*A propos*/
+.text h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.text p{
+    font-size: 20px;
+    z-index: 100;
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*CONTACT*/
+
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #d0d0e0;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 70px;
+    font-weight: 500;
+    color: #030303;
+
+}
+
+.contact .content p{
+    margin-top: 25px;
+    font-weight: 300;
+    color: #202020;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: 10px;
+    font-size: 18px;
+}
+
+/*Reservation*/
+
+main {
+    padding: 2rem;
+    position: relative;
+    background-color: #acadc0;
+  }
+  main h1 {
+    text-align: center;
+  }
+  main .room-list {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  main .room-list .room {
+    border: 2px solid  transparent;
+    border-radius: 5%;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(154, 154, 249);
+  }
+  main .room-list .room:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  main .room-list .room img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  main .room-list .status {
+    color: green;
+  }
+  main .tet {
+    resize: none;
+  }
+
+  .room button{
+    width: 90px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #00abf0;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .room button a{
+    text-decoration: none;
+  }
+
+  
+
+  .reserve1{
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffa200;
+    font-size: 17px;
+   margin-left: 40%;
+   margin-top: 10px;
+  }
+
+  
+/*INSCRIPTION*/
+
+/*CONNEXION*/
+
+/*confirmation*/
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    margin-top: 40px;
+    margin-left: 420px;
+    margin-right: 180px;
+    width: 500px;
+    height: 400px;
+  }
+  
+  .container1 img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 250px;
+  }
+  
+  .container1 .texte {
+    flex: 1 1 auto;
+  }
+  
+  .container1 h1, .container1 p {
+    margin: 0;
+  }
+
+  .texte button{
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #00bcd4;
+    font-size: 17px;
+   margin-left: 40%;
+   margin-top: 10px;
+  }
+
+  .texte button a{
+    text-decoration: none;
+    color: #000;
+  }
+  
